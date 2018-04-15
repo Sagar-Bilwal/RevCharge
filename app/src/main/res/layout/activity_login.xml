@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context="com.example.sagar.evhack.Login">
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/signUp"
+        android:layout_width="194dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:shadowColor="@color/darkBlue"
+        android:text="@string/sign_up"
+        android:textColor="@color/backgroundBlack"
+        android:textSize="20sp"
+        app:cornerRadius="4dp"
+        android:paddingBottom="4dp"
+        app:fButtonColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/signIn"
+        android:layout_width="194dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:shadowColor="@color/darkBlue"
+        android:text="@string/sign_in"
+        android:textColor="@color/backgroundBlack"
+        android:textSize="20sp"
+        app:cornerRadius="4dp"
+        app:fButtonColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="RevCharge"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+

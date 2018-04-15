@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1013741053683",
+    "firebase_url": "https://evhack-888a1.firebaseio.com",
+    "project_id": "evhack-888a1",
+    "storage_bucket": "evhack-888a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013741053683:android:2e4ac4372ff3d296",
+        "android_client_info": {
+          "package_name": "com.example.sagar.evhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013741053683-hootjnpihjd3btp0500kfrh719dhp4un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sagar.evhack",
+            "certificate_hash": "d4d7b3bad24d6b90e12b4c24dda0634a8d16f927"
+          }
+        },
+        {
+          "client_id": "1013741053683-veusvvsb2lnjkm7711sgk41m8grdqrie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdcOGmC23Kv7vvB_Mb3R6zAEAMAVdoIyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013741053683-veusvvsb2lnjkm7711sgk41m8grdqrie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
